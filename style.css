@@ -5,13 +5,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .main{
-    background-color: rgb(227, 208, 223);
+    background-color: rgb(227, 231, 210);
+    height: 100vh;
 }
 .logo{
     display: flex;
     align-items: center;
-    color: rgb(33, 116, 42);
+    color: rgb(34, 172, 34);
     padding: 10px 50px;
+}
+.logostyle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .fa-whatsapp{
     font-size: 36px !important;
@@ -42,10 +48,13 @@
  
 }
 .Dbtn{
-    background-color: rgb(32, 141, 32);
+    background-color: rgb(41, 201, 41);
     border-radius: 25px;
     border: 1px solid black;
     padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .part2{
     display: flex;
@@ -55,14 +64,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 40vh;
+    height: 45vh;
     width: 70%;
 }
 ul{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 20vh;
+    height: 30vh;
 }
 li{
     list-style: none;
@@ -71,7 +80,7 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 30%;
     height: 45vh;
 }
@@ -79,8 +88,88 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
 }
 input{
-    width: 3vw;
-    height: 3vh;
+    width: 2.5vw;
+    height: 2.5vh;
+    background-color: green;
+    border-color: green;
+}
+.line u{
+    display: flex;
+    flex-direction: column;
+    text-decoration-color: rgb(41, 201, 41);
+    margin-top: 10px;
+}
+.iball{
+    background-color: rgb(132, 134, 135);
+    padding: 1px 6px;
+    border-radius: 100px;
+    color: white;
+    margin-left: 5px;
+    font-size: 10px;
+    font-family: Arial;
+}
+.menu{
+    width: 3px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+}
+.ulli{
+    display: flex;
+    align-items: center;
+}
+ul{
+    margin-top: 10px;
+}
+.df{
+    display: block;
+}
+.dn{
+    display: none;
+}
+@media (max-width:886px) {
+    .part{
+        width: 96%;
+    }
+    .part1{
+        flex-direction: column;
+    }
+    .part1 button{
+        margin-top: 10px;
+    }
+    .Dbtn{
+        padding: 15px 20px;
+    }
+    .QR{
+        width: 45%;
+    }
+
+    .login{
+        width: 96%;
+        height: auto;
+    }
+    .login h1,.login h3 ,.login ul li .login div u{
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:1400px) {
+    .QR span{
+        display: none;
+    }
+    .main-part{
+        background-color:rgb(227, 231, 210);
+    }
+
+}
+@media (max-width:512px){
+    .dn{
+        display: block;
+    }
+    .df{
+        display: none;
+    }
 }
