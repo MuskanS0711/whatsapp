@@ -6,7 +6,7 @@
 }
 .main{
     background-color: rgb(227, 231, 210);
-    height: 100vh;
+    /* height: 100vh; */
 }
 .logo{
     display: flex;
@@ -144,7 +144,7 @@ ul{
         padding: 15px 20px;
     }
     .QR{
-        width: 45%;
+        width: 50%;
     }
 
     .login{
@@ -173,3 +173,22 @@ ul{
         display: none;
     }
 }
+@media (max-width:759px){
+
+    .QR{
+        width: 75%;
+    }
+}
+@media (max-width:400px){
+
+    .QR{
+        width: 100%;
+    }
+}
+
+@media (max-width:278px){
+
+    .QR{
+        width: 55%;
+    }
+} 
